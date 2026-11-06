@@ -1,0 +1,40 @@
+-------------------------------------第一轮----------------------------------------
+你可以根据database.init.php 获取sqlite数据库信息，
+然后封装 html页面需要的数据接口到api.php，具体功能如下：
+（1）获取 所有 门店和门店下面的产品，门店和产品都按照sort_num排序
+（2）门店顺序重新排序
+（3）某个门店下的所有产品排序
+（4）修改或新建门店
+（5）修改或新建产品
+（6）删除门店（包括其下所有产品，同时删除对应images下的文件）
+（7）删除产品（同时删除images文件）
+（8）排单（orders表） 新增or修改，不提供删除，理论上order_content内容为空表示删除了
+（9）获取排单内容，和(1)获取门店的接口返回数据结构一样，附加条件order_date日期为今天，order_content不为空
+我还需要一份 API.md文件
+
+
+-------------------------------------第二轮----------------------------------------
+做如下修改，同步更新API文档
+（1）把 shops.reorder 改成 shops.sort，goods.reorder改成 goods.sort
+（2）封装一个getShopList方法（功能等于shops.list接口）
+（3）封装一个getOrdersToday方法（功能等于orders.today接口）
+
+
+-------------------------------------第三轮----------------------------------------
+getShopList 和 getOrdersToday 我想在其它php文件里直接调用，用来初始化html数据，改成无需传递PDO参数
+
+
+-------------------------------------第四轮----------------------------------------
+删除shops.save、goods.save、orders.save 接口，统一合并成一个接口info.update， 参数是：
+shop_id，good_id，address(门店地址)，name（门店名称，code（商品编码），image（商品图片），order_content（orders表的排单内容）
+
+逻辑如下：
+（1）如果shopid存在，address和name有变化，则修改shops表记录
+（2）如果shopid不存在，则新增一条记录
+（3）如果goodid存在，image和code有变化，则修改goods表记录（image有变化时，需要删除原来的图片文件）
+（4）如果goodid不存在，则新增一条记录
+（5）如果order_content有变化，则修改orders表记录，如果goodid不存在则新增一条orders记录
+
+
+-------------------------------------第五轮（Debug...）----------------------------------------
+接口 info.update 的 image 参数是file文件，不是字符串，需要获取文件，重新命名 date('YmdHis') . '.jpg'，然后保存在images文件夹，同时将新命名作为goods表的image字段保存

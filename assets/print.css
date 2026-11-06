@@ -1,0 +1,66 @@
+@page { 
+    size: A4 portrait;
+    margin-top: 0em; 
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+@media print {
+    body * {
+        visibility: hidden;   /* 先全部隐藏 */
+    }
+    .print-area, .print-area * {
+        visibility: visible;  /* 只显示打印区域 */
+    }
+}
+.print-area {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.name{
+font-size:18px;
+    font-weight:bold;
+    padding-bottom:5px;
+}
+.title{
+    font-size:15px;
+    font-weight:bold;
+}
+.order{
+    font-size:15px;
+    font-weight:bold;
+}
+table{
+    /* page-break-before: always;  */
+    /* page-break-inside:avoid; */
+    width: 100%;
+    border-top: 1px dashed #333;
+}
+table:last-of-type{
+    border-bottom: 1px dashed #333;
+}
+tr{
+    page-break-inside:avoid;
+}
+td{
+    width: 50%;
+    margin: 0px;
+    padding-bottom:10px; 
+}
+hr{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+img{
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+.textright{
+    position: relative; 
+    margin-left: 85px; 
+    margin-top:-4px;
+}

@@ -1,0 +1,561 @@
+[05-Nov-2026 20:57:00 Asia/Shanghai] 调试信息：请求已到达这里
+[05-Nov-2026 20:57:00 Asia/Shanghai] 调试信息：请求已到达这里
+[05-Nov-2026 20:57:11 Asia/Shanghai] 调试信息：请求已到达这里
+[05-Nov-2026 20:58:16 Asia/Shanghai] 调试信息：请求已到达这里
+[05-Nov-2026 20:58:16 Asia/Shanghai] 调试信息：请求已到达这里
+[05-Nov-2026 20:58:27 Asia/Shanghai] 调试信息：请求已到达这里
+[05-Nov-2026 21:02:44 Asia/Shanghai] api.php 被请求: / | Method: GET
+[05-Nov-2026 21:02:44 Asia/Shanghai] api.php 被请求: /.well-known/appspecific/com.chrome.devtools.json | Method: GET
+[05-Nov-2026 21:02:54 Asia/Shanghai] api.php 被请求: /favicon.ico | Method: GET
+[05-Nov-2026 21:06:40 Asia/Shanghai] api.php 被请求: / | Method: GET
+[05-Nov-2026 21:09:16 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[05-Nov-2026 21:12:42 Asia/Shanghai] api.php 被请求: / | Method: GET
+[05-Nov-2026 21:13:10 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[05-Nov-2026 21:13:10 Asia/Shanghai] api.php 处理 info.update 请求: {"action":"info.update","shop_id":"2","good_id":"44","address":"秧石路166号安姐产业园7号楼一楼","name":"积木城堡","code":"001","order_content":"00000000000000"}
+[05-Nov-2026 21:13:10 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true,"data":{"shop_id":2,"goods_id":45,"order_id":7}}
+[05-Nov-2026 21:19:38 Asia/Shanghai] api.php 被请求: / | Method: GET
+[05-Nov-2026 21:20:06 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[05-Nov-2026 21:20:06 Asia/Shanghai] api.php 处理 info.update 请求: {"action":"info.update","shop_id":"2","good_id":"42","address":"秧石路166号安姐产业园7号楼一楼","name":"积木城堡","code":"002","order_content":""}
+[05-Nov-2026 21:20:06 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true,"data":{"shop_id":2,"goods_id":46,"order_id":8}}
+[05-Nov-2026 21:29:28 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[05-Nov-2026 21:29:28 Asia/Shanghai] api.php 处理 info.update 请求: {"action":"info.update","shop_id":"2","good_id":"25","address":"秧石路166号安姐产业园7号楼一楼","name":"积木城堡","code":"DF26男童米粒绒加厚开衫套装","order_content":""}
+[05-Nov-2026 21:29:28 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true,"data":{"shop_id":2,"goods_id":47,"order_id":9}}
+[05-Nov-2026 21:29:32 Asia/Shanghai] api.php 被请求: / | Method: GET
+[05-Nov-2026 21:32:10 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[05-Nov-2026 21:32:10 Asia/Shanghai] api.php 处理 info.update 请求: {"action":"info.update","shop_id":"2","good_id":"47","address":"秧石路166号安姐产业园7号楼一楼","name":"积木城堡","code":"DF26男童米粒绒加厚开衫套装","order_content":""}
+[05-Nov-2026 21:32:10 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true,"data":{"shop_id":2,"goods_id":47,"order_id":9}}
+[05-Nov-2026 21:32:42 Asia/Shanghai] api.php 被请求: / | Method: GET
+[05-Nov-2026 21:43:31 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Undefined constant "action" in Command line code:1
+Stack trace:
+#0 {main}
+  thrown in Command line code on line 1
+[05-Nov-2026 21:44:17 Asia/Shanghai] PHP Parse error:  syntax error, unexpected token "=", expecting ")" in Command line code on line 1
+[05-Nov-2026 21:45:04 Asia/Shanghai] PHP Parse error:  syntax error, unexpected token "=", expecting ")" in Command line code on line 1
+[05-Nov-2026 21:45:48 Asia/Shanghai] PHP Parse error:  syntax error, unexpected token "=", expecting ")" in Command line code on line 1
+[05-Nov-2026 21:47:10 Asia/Shanghai] api.php 被请求: /api.php?action=orders.today | Method: GET
+[05-Nov-2026 21:47:10 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true,"data":[{"id":6,"good_id":44,"order_content":"00000000000000","order_date":"20261105","goods":{"id":44,"shop_id":2,"image":null,"code":"001","sort_num":5},"shop":{"id":2,"name":"积木城堡","address":"秧石路166号安姐产业园7号楼一楼","sort_num":0}},{"id":7,"good_id":45,"order_content":"00000000000000","order_date":"20261105","goods":{"id":45,"shop_id":2,"image":"20261105211310.jpg","code":"001","sort_num":6},"shop":{"id":2,"name":"积木城堡","address":"秧石路166号安姐产业园7号楼一楼","sort_num":0}}]}
+[05-Nov-2026 21:49:06 Asia/Shanghai] api.php 被请求: /api.php?action=shops.list | Method: GET
+[05-Nov-2026 21:49:06 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true,"data":[{"id":1,"name":"主打星睡衣店","address":"中华西路1088-5号（靠近洋西路这边）","sort_num":0,"goods":[{"id":1,"shop_id":1,"image":"20260918134018.jpg","code":"D2T23133坑条暖绒灰蓝笑脸02","sort_num":0,"order_content":null,"order_date":null},{"id":2,"shop_id":1,"image":"20260918134101.jpg","code":"248118黑白格熊","sort_num":0,"order_content":"","order_date":"20261105"},{"id":3,"shop_id":1,"image":"20260918134140.jpg","code":"D2T23127坑条暖绒拼色粉兔882","sort_num":0,"order_content":null,"order_date":null},{"id":4,"shop_id":1,"image":"20260918134421.jpg","code":"248100格子笑脸882","sort_num":0,"order_content":null,"order_date":null}]},{"id":2,"name":"积木城堡","address":"秧石路166号安姐产业园7号楼一楼","sort_num":0,"goods":[{"id":5,"shop_id":2,"image":"20260918130022.jpg","code":"Q499莫代尔条纹睡裙","sort_num":0,"order_content":null,"order_date":null},{"id":6,"shop_id":2,"image":"20260918130251.jpg","code":"Q498莫代尔蝴蝶睡裙","sort_num":0,"order_content":null,"order_date":null},{"id":7,"shop_id":2,"image":"20260918130323.jpg","code":"Q496冰雪丝提花蝴蝶睡裙","sort_num":0,"order_content":null,"order_date":null},{"id":8,"shop_id":2,"image":"20260918130414.jpg","code":"Q654灰条花边睡裙","sort_num":0,"order_content":null,"order_date":null},{"id":9,"shop_id":2,"image":"20260918130547.jpg","code":"D471女童吊带泡泡格油画套装","sort_num":0,"order_content":null,"order_date":null},{"id":10,"shop_id":2,"image":"20260918130633.jpg","code":"D2359女童泡泡格吊带小熊套装","sort_num":0,"order_content":null,"order_date":null},{"id":11,"shop_id":2,"image":"20260918130702.jpg","code":"D2356女童吊带蝴蝶结套装","sort_num":0,"order_content":null,"order_date":null},{"id":12,"shop_id":2,"image":"20260918130752.jpg","code":"D2038短袖冰丝红米奇套装","sort_num":0,"order_content":null,"order_date":null},{"id":13,"shop_id":2,"image":"20260918130816.jpg","code":"D2204女童冰丝短袖棋盘格套装","sort_num":0,"order_content":null,"order_date":null},{"id":14,"shop_id":2,"image":"20260918130943.jpg","code":"C420雀上枝头短袖8分裤家居服套装","sort_num":0,"order_content":null,"order_date":null},{"id":15,"shop_id":2,"image":"20260918131034.jpg","code":"C2334女童纯棉条纹小狗短袖长裤套装","sort_num":0,"order_content":null,"order_date":null},{"id":16,"shop_id":2,"image":"20260918131128.jpg","code":"S2218女童冰雪丝蝴蝶三件套","sort_num":0,"order_content":null,"order_date":null},{"id":17,"shop_id":2,"image":"20260918131300.jpg","code":"576粉色小花家居服套装","sort_num":0,"order_content":null,"order_date":null},{"id":18,"shop_id":2,"image":"20260918131334.jpg","code":"Q574复古小花家居服","sort_num":0,"order_content":null,"order_date":null},{"id":19,"shop_id":2,"image":"20260918131424.jpg","code":"DF19女童德绒翻领家居服","sort_num":0,"order_content":null,"order_date":null},{"id":20,"shop_id":2,"image":"20260918131514.jpg","code":"DR66女童羊毛蚕丝德绒眼镜猫家居服","sort_num":0,"order_content":null,"order_date":null},{"id":21,"shop_id":2,"image":"20260918131544.jpg","code":"DR63女童德绒格子奶酪家居服","sort_num":0,"order_content":null,"order_date":null},{"id":22,"shop_id":2,"image":"20260918131722.jpg","code":"DF66女童半边绒加厚小猫家居服套装","sort_num":0,"order_content":null,"order_date":null},{"id":23,"shop_id":2,"image":"20260918131930.jpg","code":"S2398女童莫代尔条纹小狗三件套","sort_num":0,"order_content":null,"order_date":null},{"id":24,"shop_id":2,"image":"20260918132017.jpg","code":"S2393女童冰雪丝宽条三件套","sort_num":0,"order_content":null,"order_date":null},{"id":25,"shop_id":2,"image":"20260918132232.jpg","code":"DF26男童米粒绒加厚开衫套装","sort_num":0,"order_content":null,"order_date":null},{"id":40,"shop_id":2,"image":null,"code":"001","sort_num":1,"order_content":"","order_date":"20261105"},{"id":41,"shop_id":2,"image":"20261105204232.jpg","code":"001","sort_num":2,"order_content":"","order_date":"20261105"},{"id":42,"shop_id":2,"image":null,"code":"002","sort_num":3,"order_content":"","order_date":"20261105"},{"id":43,"shop_id":2,"image":"20261105205501.jpg","code":"001","sort_num":4,"order_content":"","order_date":"20261105"},{"id":44,"shop_id":2,"image":null,"code":"001","sort_num":5,"order_content":"00000000000000","order_date":"20261105"},{"id":45,"shop_id":2,"image":"20261105211310.jpg","code":"001","sort_num":6,"order_content":"00000000000000","order_date":"20261105"},{"id":46,"shop_id":2,"image":"20261105212006.jpg","code":"002","sort_num":7,"order_content":"","order_date":"20261105"},{"id":47,"shop_id":2,"image":"20261105213210.jpg","code":"DF26男童米粒绒加厚开衫套装","sort_num":8,"order_content":"","order_date":"20261105"}]},{"id":3,"name":"琼瑛网供","address":"大河新村一区62栋5号后门","sort_num":0,"goods":[{"id":26,"shop_id":3,"image":"20260918132448.jpg","code":"1127秋冬加厚女童睡衣家居服套装","sort_num":0,"order_content":null,"order_date":null},{"id":27,"shop_id":3,"image":"20260918132553.jpg","code":"8089洛丽塔夏季女童睡裙纯棉短袖","sort_num":0,"order_content":null,"order_date":null},{"id":28,"shop_id":3,"image":"20260918132632.jpg","code":"2108夏季女童棉绸睡衣套装家居服","sort_num":0,"order_content":null,"order_date":null},{"id":29,"shop_id":3,"image":"20260918132701.jpg","code":"1338吊带蝴蝶结冰丝夏季睡裙公主家居服","sort_num":0,"order_content":null,"order_date":null},{"id":30,"shop_id":3,"image":"20260918132740.jpg","code":"7015短袖纯棉纱布蝴蝶结女童睡衣套装","sort_num":0,"order_content":null,"order_date":null},{"id":31,"shop_id":3,"image":"20260918132849.jpg","code":"2109夏季绵绸女童睡衣家居服吊带套装","sort_num":0,"order_content":null,"order_date":null},{"id":32,"shop_id":3,"image":"20260918132933.jpg","code":"8108-洛丽塔兔子短袖纯棉公主睡裙夏季","sort_num":0,"order_content":null,"order_date":null},{"id":33,"shop_id":3,"image":"20260918133010.jpg","code":"8107洛丽塔公主女童睡裙短袖纯棉夏","sort_num":0,"order_content":null,"order_date":null},{"id":34,"shop_id":3,"image":"20260918133100.jpg","code":"8088洛丽塔纯棉长袖春秋睡裙","sort_num":0,"order_content":null,"order_date":null},{"id":35,"shop_id":3,"image":"20260918133159.jpg","code":"1602金丝绒荷叶领女童睡衣家居服秋季","sort_num":0,"order_content":null,"order_date":null},{"id":36,"shop_id":3,"image":"20260918133234.jpg","code":"1638-1轻松熊金丝绒女童睡衣秋家居服","sort_num":0,"order_content":null,"order_date":null},{"id":37,"shop_id":3,"image":"20260918133420.jpg","code":"7011","sort_num":0,"order_content":null,"order_date":null},{"id":38,"shop_id":3,"image":"20260918133542.jpg","code":"2045三层夹棉加厚女童睡衣家居服套装冬","sort_num":0,"order_content":null,"order_date":null},{"id":39,"shop_id":3,"image":"20260918133647.jpg","code":"1126秋冬加厚女童睡衣儿童家居服套装","sort_num":0,"order_content":null,"order_date":null}]}]}
+[05-Nov-2026 21:49:15 Asia/Shanghai] api.php 被请求: / | Method: GET
+[05-Nov-2026 21:52:39 Asia/Shanghai] api.php 被请求: / | Method: GET
+[05-Nov-2026 21:54:02 Asia/Shanghai] api.php 被请求: / | Method: GET
+[05-Nov-2026 21:54:24 Asia/Shanghai] api.php 被请求: / | Method: GET
+[06-Nov-2026 11:22:54 Asia/Shanghai] api.php 被请求: / | Method: GET
+[06-Nov-2026 11:23:40 Asia/Shanghai] api.php 被请求: / | Method: GET
+[06-Nov-2026 11:38:53 Asia/Shanghai] api.php 被请求: / | Method: GET
+[06-Nov-2026 11:38:58 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 11:38:58 Asia/Shanghai] api.php 响应: HTTP 400 | Body: {"success":false,"error":"缺少 action 参数。"}
+[06-Nov-2026 11:41:44 Asia/Shanghai] api.php 被请求: / | Method: GET
+[06-Nov-2026 11:41:52 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 11:41:52 Asia/Shanghai] api.php 响应: HTTP 404 | Body: {"success":false,"error":"不支持的 action。"}
+[06-Nov-2026 11:45:21 Asia/Shanghai] api.php 被请求: / | Method: GET
+[06-Nov-2026 11:45:27 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 11:45:27 Asia/Shanghai] api.php 响应: HTTP 404 | Body: {"success":false,"error":"不支持的 action。"}
+[06-Nov-2026 11:46:38 Asia/Shanghai] api.php 被请求: / | Method: GET
+[06-Nov-2026 11:46:44 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 11:46:44 Asia/Shanghai] api.php 响应: HTTP 400 | Body: {"success":false,"error":"参数 ids 必须是 ID 数组。"}
+[06-Nov-2026 11:48:26 Asia/Shanghai] api.php 被请求: / | Method: GET
+[06-Nov-2026 11:48:29 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 11:48:29 Asia/Shanghai] api.php 响应: HTTP 400 | Body: {"success":false,"error":"参数 ids 必须是 ID 数组。"}
+[06-Nov-2026 11:51:01 Asia/Shanghai] api.php 被请求: / | Method: GET
+[06-Nov-2026 11:51:05 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 11:51:05 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true}
+[06-Nov-2026 11:51:15 Asia/Shanghai] api.php 被请求: / | Method: GET
+[06-Nov-2026 11:51:25 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 11:51:25 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true}
+[06-Nov-2026 11:51:32 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 11:51:32 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true}
+[06-Nov-2026 11:51:36 Asia/Shanghai] api.php 被请求: / | Method: GET
+[06-Nov-2026 11:51:47 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 11:51:47 Asia/Shanghai] api.php 响应: HTTP 404 | Body: {"success":false,"error":"不支持的 action。"}
+[06-Nov-2026 11:52:14 Asia/Shanghai] api.php 被请求: / | Method: GET
+[06-Nov-2026 11:52:19 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 11:52:19 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true}
+[06-Nov-2026 11:52:28 Asia/Shanghai] api.php 被请求: / | Method: GET
+[06-Nov-2026 11:53:03 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 11:53:03 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true}
+[06-Nov-2026 11:58:16 Asia/Shanghai] api.php 被请求: / | Method: GET
+[06-Nov-2026 11:58:26 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 11:58:26 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true}
+[06-Nov-2026 11:58:26 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 11:58:26 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true}
+[06-Nov-2026 11:58:46 Asia/Shanghai] api.php 被请求: / | Method: GET
+[06-Nov-2026 12:12:23 Asia/Shanghai] api.php 被请求: / | Method: GET
+[06-Nov-2026 12:12:35 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 12:12:35 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true}
+[06-Nov-2026 12:12:41 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 12:12:41 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true}
+[06-Nov-2026 12:12:52 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 12:12:52 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true}
+[06-Nov-2026 12:12:53 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 12:12:53 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true}
+[06-Nov-2026 12:12:57 Asia/Shanghai] api.php 被请求: / | Method: GET
+[06-Nov-2026 12:16:21 Asia/Shanghai] api.php 被请求: / | Method: GET
+[06-Nov-2026 12:16:44 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 12:16:44 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true}
+[06-Nov-2026 12:16:45 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 12:16:45 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true}
+[06-Nov-2026 12:20:04 Asia/Shanghai] api.php 被请求: / | Method: GET
+[06-Nov-2026 12:21:11 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 12:21:11 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true}
+[06-Nov-2026 12:21:27 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 12:21:27 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true}
+[06-Nov-2026 12:21:56 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 12:21:56 Asia/Shanghai] api.php 处理 info.update 请求: {"action":"info.update","shop_id":"2","good_id":"25","address":"秧石路166号安姐产业园7号楼一楼","name":"积木城堡","code":"test001","order_content":""}
+[06-Nov-2026 12:21:56 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true,"data":{"shop_id":2,"good_id":25,"order_id":10}}
+[06-Nov-2026 12:22:33 Asia/Shanghai] api.php 被请求: / | Method: GET
+[06-Nov-2026 14:02:12 Asia/Shanghai] api.php 被请求: / | Method: GET
+[06-Nov-2026 14:03:29 Asia/Shanghai] api.php 被请求: / | Method: GET
+[06-Nov-2026 14:04:14 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 14:04:14 Asia/Shanghai] api.php 处理 info.update 请求: {"action":"info.update","shop_id":"","good_id":"","address":"金丰源","name":"鹿圆","code":"汉服01","order_content":""}
+[06-Nov-2026 14:04:14 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true,"data":{"shop_id":4,"good_id":48,"order_id":11}}
+[06-Nov-2026 14:04:14 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 14:04:14 Asia/Shanghai] api.php 处理 info.update 请求: {"action":"info.update","shop_id":"","good_id":"","address":"金丰源","name":"鹿圆","code":"汉服01","order_content":""}
+[06-Nov-2026 14:04:14 Asia/Shanghai] api.php 响应: HTTP 409 | Body: {"success":false,"error":"同名图片文件已存在，请稍后重试。"}
+[06-Nov-2026 14:12:07 Asia/Shanghai] api.php 被请求: / | Method: GET
+[06-Nov-2026 14:13:09 Asia/Shanghai] api.php 被请求: / | Method: GET
+[06-Nov-2026 14:14:08 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 14:14:08 Asia/Shanghai] api.php 处理 info.update 请求: {"action":"info.update","shop_id":"","good_id":"","address":"秧石路166号安姐产业园7号楼一楼","name":"萌点","code":"001号","order_content":""}
+[06-Nov-2026 14:14:08 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true,"data":{"shop_id":5,"good_id":49,"order_id":12}}
+[06-Nov-2026 14:18:04 Asia/Shanghai] api.php 被请求: / | Method: GET
+[06-Nov-2026 14:18:45 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 14:18:45 Asia/Shanghai] api.php 处理 info.update 请求: {"action":"info.update","shop_id":"","good_id":"","address":"秧石路166号安姐产业园7号楼一楼","name":"测试商","code":"产品1号","order_content":""}
+[06-Nov-2026 14:18:45 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true,"data":{"shop_id":6,"good_id":50,"order_id":13}}
+[06-Nov-2026 14:23:04 Asia/Shanghai] api.php 被请求: / | Method: GET
+[06-Nov-2026 14:23:29 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 14:23:29 Asia/Shanghai] api.php 处理 info.update 请求: {"action":"info.update","shop_id":"","good_id":"","address":"秧石路166号安姐产业园7号楼一楼","name":"test","code":"001","order_content":""}
+[06-Nov-2026 14:23:29 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true,"data":{"shop_id":7,"good_id":51,"order_id":14}}
+[06-Nov-2026 14:25:07 Asia/Shanghai] api.php 被请求: / | Method: GET
+[06-Nov-2026 14:25:26 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 14:25:26 Asia/Shanghai] api.php 处理 info.update 请求: {"action":"info.update","shop_id":"","good_id":"","address":"秧石路166号安姐产业园7号楼一楼","name":"test11","code":"111","order_content":""}
+[06-Nov-2026 14:25:26 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true,"data":{"shop_id":8,"good_id":52,"order_id":15}}
+[06-Nov-2026 14:29:27 Asia/Shanghai] api.php 被请求: / | Method: GET
+[06-Nov-2026 14:29:51 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 14:29:51 Asia/Shanghai] api.php 处理 info.update 请求: {"action":"info.update","shop_id":"","good_id":"","address":"秧石路166号安姐产业园7号楼一楼","name":"haha","code":"111","order_content":""}
+[06-Nov-2026 14:29:51 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true,"data":{"shop_id":9,"good_id":53,"order_id":16}}
+[06-Nov-2026 14:32:54 Asia/Shanghai] api.php 被请求: / | Method: GET
+[06-Nov-2026 14:33:11 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 14:33:11 Asia/Shanghai] api.php 处理 info.update 请求: {"action":"info.update","shop_id":"","good_id":"","address":"秧石路166号安姐产业园7号楼一楼","name":"hehehe","code":"111","order_content":""}
+[06-Nov-2026 14:33:11 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true,"data":{"shop_id":10,"good_id":54,"order_id":17}}
+[06-Nov-2026 14:39:39 Asia/Shanghai] api.php 被请求: / | Method: GET
+[06-Nov-2026 14:39:58 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 14:39:58 Asia/Shanghai] api.php 处理 info.update 请求: {"action":"info.update","shop_id":"","good_id":"","address":"秧石路166号安姐产业园7号楼一楼","name":"哎呀","code":"11","order_content":""}
+[06-Nov-2026 14:39:58 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true,"data":{"shop_id":11,"good_id":55,"order_id":18}}
+[06-Nov-2026 14:45:02 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 14:45:02 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true}
+[06-Nov-2026 14:45:06 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 14:45:06 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true}
+[06-Nov-2026 14:45:09 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 14:45:09 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true}
+[06-Nov-2026 14:45:12 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 14:45:12 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true}
+[06-Nov-2026 14:45:15 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 14:45:15 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true}
+[06-Nov-2026 14:45:17 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 14:45:17 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true}
+[06-Nov-2026 14:45:20 Asia/Shanghai] api.php 被请求: / | Method: GET
+[06-Nov-2026 14:45:46 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 14:45:46 Asia/Shanghai] api.php 处理 info.update 请求: {"action":"info.update","shop_id":"","good_id":"","address":"秧石路166号安姐产业园7号楼一楼","name":"哈哈","code":"11","order_content":""}
+[06-Nov-2026 14:45:46 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true,"data":{"shop_id":12,"good_id":56,"order_id":19}}
+[06-Nov-2026 14:47:47 Asia/Shanghai] api.php 被请求: / | Method: GET
+[06-Nov-2026 14:48:04 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 14:48:04 Asia/Shanghai] api.php 处理 info.update 请求: {"action":"info.update","shop_id":"","good_id":"","address":"秧石路166号安姐产业园7号楼一楼","name":"呃呃呃呃呃","code":"11","order_content":""}
+[06-Nov-2026 14:48:04 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true,"data":{"shop_id":13,"good_id":57,"order_id":20}}
+[06-Nov-2026 14:52:39 Asia/Shanghai] api.php 被请求: / | Method: GET
+[06-Nov-2026 14:53:04 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 14:53:04 Asia/Shanghai] api.php 处理 info.update 请求: {"action":"info.update","shop_id":"","good_id":"","address":"秧石路166号安姐产业园7号楼一楼","name":"淘特","code":"111","order_content":""}
+[06-Nov-2026 14:53:04 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true,"data":{"shop_id":14,"good_id":58,"order_id":21}}
+[06-Nov-2026 14:58:00 Asia/Shanghai] api.php 被请求: / | Method: GET
+[06-Nov-2026 14:58:15 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 14:58:15 Asia/Shanghai] api.php 处理 info.update 请求: {"action":"info.update","shop_id":"","good_id":"","address":"秧石路166号安姐产业园7号楼一楼","name":"111","code":"222","order_content":""}
+[06-Nov-2026 14:58:15 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true,"data":{"shop_id":15,"good_id":59,"order_id":22}}
+[06-Nov-2026 14:58:33 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 14:58:33 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true}
+[06-Nov-2026 14:58:38 Asia/Shanghai] api.php 被请求: / | Method: GET
+[06-Nov-2026 14:58:46 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 14:58:46 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true}
+[06-Nov-2026 14:59:00 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 14:59:00 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true}
+[06-Nov-2026 14:59:09 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 14:59:09 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true}
+[06-Nov-2026 14:59:23 Asia/Shanghai] api.php 被请求: /null | Method: GET
+[06-Nov-2026 14:59:36 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 14:59:36 Asia/Shanghai] api.php 处理 info.update 请求: {"action":"info.update","shop_id":"4","good_id":"","address":"金丰源","name":"鹿圆","code":"111","order_content":""}
+[06-Nov-2026 14:59:36 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true,"data":{"shop_id":4,"good_id":60,"order_id":23}}
+[06-Nov-2026 14:59:41 Asia/Shanghai] api.php 被请求: / | Method: GET
+[06-Nov-2026 14:59:56 Asia/Shanghai] api.php 被请求: /null | Method: GET
+[06-Nov-2026 15:00:00 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 15:00:00 Asia/Shanghai] api.php 处理 info.update 请求: {"action":"info.update","shop_id":"4","good_id":"","address":"金丰源","name":"鹿圆","code":"222","order_content":""}
+[06-Nov-2026 15:00:00 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true,"data":{"shop_id":4,"good_id":61,"order_id":24}}
+[06-Nov-2026 15:00:02 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 15:00:02 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true}
+[06-Nov-2026 15:00:05 Asia/Shanghai] api.php 被请求: / | Method: GET
+[06-Nov-2026 15:00:52 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 15:00:52 Asia/Shanghai] api.php 处理 info.update 请求: {"action":"info.update","shop_id":"4","good_id":"60","address":"金丰源","name":"鹿圆NEW","code":"111","order_content":""}
+[06-Nov-2026 15:00:52 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true,"data":{"shop_id":4,"good_id":60,"order_id":23}}
+[06-Nov-2026 15:00:58 Asia/Shanghai] api.php 被请求: / | Method: GET
+[06-Nov-2026 15:01:29 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 15:01:29 Asia/Shanghai] api.php 处理 info.update 请求: {"action":"info.update","shop_id":"4","good_id":"61","address":"金丰源222","name":"鹿圆","code":"222","order_content":""}
+[06-Nov-2026 15:01:29 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true,"data":{"shop_id":4,"good_id":61,"order_id":24}}
+[06-Nov-2026 15:01:31 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 15:01:31 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true}
+[06-Nov-2026 15:01:33 Asia/Shanghai] api.php 被请求: / | Method: GET
+[06-Nov-2026 15:01:45 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 15:01:45 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true}
+[06-Nov-2026 15:01:48 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 15:01:48 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true}
+[06-Nov-2026 15:01:51 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 15:01:51 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true}
+[06-Nov-2026 15:01:53 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 15:01:53 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true}
+[06-Nov-2026 15:02:01 Asia/Shanghai] api.php 被请求: /null | Method: GET
+[06-Nov-2026 15:02:06 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 15:02:06 Asia/Shanghai] api.php 处理 info.update 请求: {"action":"info.update","shop_id":"4","good_id":"","address":"金丰源222","name":"鹿圆","code":"3","order_content":"1"}
+[06-Nov-2026 15:02:06 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true,"data":{"shop_id":4,"good_id":62,"order_id":25}}
+[06-Nov-2026 15:02:30 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 15:02:30 Asia/Shanghai] api.php 处理 info.update 请求: {"action":"info.update","shop_id":"4","good_id":"61","address":"金丰源222","name":"鹿圆","code":"222","order_content":"123123"}
+[06-Nov-2026 15:02:30 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true,"data":{"shop_id":4,"good_id":61,"order_id":24}}
+[06-Nov-2026 15:02:38 Asia/Shanghai] api.php 被请求: / | Method: GET
+[06-Nov-2026 15:09:29 Asia/Shanghai] api.php 被请求: / | Method: GET
+[06-Nov-2026 15:09:37 Asia/Shanghai] api.php 被请求: /null | Method: GET
+[06-Nov-2026 15:09:42 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 15:09:42 Asia/Shanghai] api.php 处理 info.update 请求: {"action":"info.update","shop_id":"4","good_id":"","address":"金丰源222","name":"鹿圆","code":"4","order_content":"1231231231"}
+[06-Nov-2026 15:09:42 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true,"data":{"shop_id":4,"good_id":63,"order_id":26}}
+[06-Nov-2026 15:10:10 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 15:10:10 Asia/Shanghai] api.php 处理 info.update 请求: {"action":"info.update","shop_id":"4","good_id":"63","address":"金丰源5栋502室","name":"鹿圆","code":"4","order_content":"1231231231"}
+[06-Nov-2026 15:10:10 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true,"data":{"shop_id":4,"good_id":63,"order_id":26}}
+[06-Nov-2026 15:10:18 Asia/Shanghai] api.php 被请求: / | Method: GET
+[06-Nov-2026 15:10:35 Asia/Shanghai] PHP Warning:  file_get_contents(./goods.json): Failed to open stream: No such file or directory in D:\PHP-DanTool\preview.php on line 3
+[06-Nov-2026 15:10:35 Asia/Shanghai] api.php 被请求: /dist/css/bootstrap.min.css | Method: GET
+[06-Nov-2026 15:10:35 Asia/Shanghai] api.php 被请求: /dist/css/jquery-confirm.min.css | Method: GET
+[06-Nov-2026 15:10:35 Asia/Shanghai] api.php 被请求: /dist/js/bootstrap.min.js | Method: GET
+[06-Nov-2026 15:10:35 Asia/Shanghai] api.php 被请求: /dist/js/jquery.min.js | Method: GET
+[06-Nov-2026 15:10:35 Asia/Shanghai] api.php 被请求: /dist/js/jquery-confirm.min.js | Method: GET
+[06-Nov-2026 15:20:12 Asia/Shanghai] PHP Warning:  file_get_contents(./goods.json): Failed to open stream: No such file or directory in D:\PHP-DanTool\preview.php on line 3
+[06-Nov-2026 15:20:12 Asia/Shanghai] api.php 被请求: /dist/css/bootstrap.min.css | Method: GET
+[06-Nov-2026 15:20:12 Asia/Shanghai] api.php 被请求: /dist/css/jquery-confirm.min.css | Method: GET
+[06-Nov-2026 15:20:12 Asia/Shanghai] api.php 被请求: /dist/js/jquery.min.js | Method: GET
+[06-Nov-2026 15:20:12 Asia/Shanghai] api.php 被请求: /dist/js/bootstrap.min.js | Method: GET
+[06-Nov-2026 15:20:12 Asia/Shanghai] api.php 被请求: /dist/js/jquery-confirm.min.js | Method: GET
+[06-Nov-2026 15:20:36 Asia/Shanghai] PHP Warning:  file_get_contents(./goods.json): Failed to open stream: No such file or directory in D:\PHP-DanTool\preview.php on line 3
+[06-Nov-2026 15:24:08 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 15:24:08 Asia/Shanghai] PHP Warning:  Undefined variable $arrData in D:\PHP-DanTool\preview.php on line 53
+[06-Nov-2026 15:24:08 Asia/Shanghai] PHP Warning:  foreach() argument must be of type array|object, null given in D:\PHP-DanTool\preview.php on line 53
+[06-Nov-2026 15:32:59 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 15:32:59 Asia/Shanghai] PHP Warning:  Undefined variable $arrData in D:\PHP-DanTool\preview.php on line 53
+[06-Nov-2026 15:32:59 Asia/Shanghai] PHP Warning:  foreach() argument must be of type array|object, null given in D:\PHP-DanTool\preview.php on line 53
+[06-Nov-2026 15:33:48 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 15:40:12 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 15:40:12 Asia/Shanghai] PHP Warning:  Trying to access array offset on int in D:\PHP-DanTool\preview.php on line 64
+[06-Nov-2026 15:40:12 Asia/Shanghai] PHP Warning:  Trying to access array offset on int in D:\PHP-DanTool\preview.php on line 64
+[06-Nov-2026 15:40:12 Asia/Shanghai] PHP Warning:  Trying to access array offset on int in D:\PHP-DanTool\preview.php on line 65
+[06-Nov-2026 15:40:12 Asia/Shanghai] PHP Warning:  Trying to access array offset on int in D:\PHP-DanTool\preview.php on line 68
+[06-Nov-2026 15:40:12 Asia/Shanghai] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in D:\PHP-DanTool\preview.php:64
+Stack trace:
+#0 {main}
+  thrown in D:\PHP-DanTool\preview.php on line 64
+[06-Nov-2026 15:41:51 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 15:41:51 Asia/Shanghai] PHP Warning:  Trying to access array offset on int in D:\PHP-DanTool\preview.php on line 64
+[06-Nov-2026 15:41:51 Asia/Shanghai] PHP Warning:  Trying to access array offset on int in D:\PHP-DanTool\preview.php on line 64
+[06-Nov-2026 15:41:51 Asia/Shanghai] PHP Warning:  Trying to access array offset on int in D:\PHP-DanTool\preview.php on line 65
+[06-Nov-2026 15:41:51 Asia/Shanghai] PHP Warning:  Trying to access array offset on int in D:\PHP-DanTool\preview.php on line 68
+[06-Nov-2026 15:41:51 Asia/Shanghai] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in D:\PHP-DanTool\preview.php:64
+Stack trace:
+#0 {main}
+  thrown in D:\PHP-DanTool\preview.php on line 64
+[06-Nov-2026 15:52:00 Asia/Shanghai] PHP Warning:  Undefined array key "REQUEST_URI" in D:\PHP-DanTool\api.php on line 4
+[06-Nov-2026 15:52:00 Asia/Shanghai] PHP Warning:  Undefined array key "REQUEST_METHOD" in D:\PHP-DanTool\api.php on line 4
+[06-Nov-2026 15:52:00 Asia/Shanghai] api.php 被请求:  | Method: 
+[06-Nov-2026 15:52:30 Asia/Shanghai] api.php 被请求: /test | Method: CLI
+[06-Nov-2026 15:53:55 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 15:57:19 Asia/Shanghai] api.php 被请求: /test | Method: CLI
+[06-Nov-2026 15:58:33 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 15:58:55 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 16:02:20 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 16:06:34 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 16:06:54 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 16:06:54 Asia/Shanghai] api.php 处理 info.update 请求: {"action":"info.update","shop_id":"2","good_id":"6","address":"秧石路166号安姐产业园7号楼一楼","name":"积木城堡","code":"Q498莫代尔蝴蝶睡裙","order_content":"黑色 110x2"}
+[06-Nov-2026 16:06:54 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true,"data":{"shop_id":2,"good_id":6,"order_id":27}}
+[06-Nov-2026 16:06:55 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 16:07:10 Asia/Shanghai] api.php 被请求: /test | Method: CLI
+[06-Nov-2026 16:11:14 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 16:13:28 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 16:14:14 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 16:17:33 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 16:19:35 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 16:21:33 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 16:21:56 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 16:37:37 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 16:37:49 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 16:40:34 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 16:40:34 Asia/Shanghai] api.php 处理 info.update 请求: {"action":"info.update","shop_id":"4","good_id":"48","address":"金丰源5栋502室","name":"鹿圆","code":"汉服01","order_content":"160x5"}
+[06-Nov-2026 16:40:34 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true,"data":{"shop_id":4,"good_id":48,"order_id":11}}
+[06-Nov-2026 16:40:39 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 16:40:39 Asia/Shanghai] api.php 处理 info.update 请求: {"action":"info.update","shop_id":"4","good_id":"60","address":"金丰源5栋502室","name":"鹿圆","code":"111","order_content":"120x3"}
+[06-Nov-2026 16:40:39 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true,"data":{"shop_id":4,"good_id":60,"order_id":23}}
+[06-Nov-2026 16:40:48 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 16:40:48 Asia/Shanghai] api.php 处理 info.update 请求: {"action":"info.update","shop_id":"4","good_id":"61","address":"金丰源5栋502室","name":"鹿圆","code":"222","order_content":"150x1.160x2，170x1"}
+[06-Nov-2026 16:40:48 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true,"data":{"shop_id":4,"good_id":61,"order_id":24}}
+[06-Nov-2026 16:40:51 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 16:40:51 Asia/Shanghai] api.php 处理 info.update 请求: {"action":"info.update","shop_id":"4","good_id":"62","address":"金丰源5栋502室","name":"鹿圆","code":"3","order_content":""}
+[06-Nov-2026 16:40:51 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true,"data":{"shop_id":4,"good_id":62,"order_id":25}}
+[06-Nov-2026 16:40:53 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 16:40:53 Asia/Shanghai] api.php 处理 info.update 请求: {"action":"info.update","shop_id":"4","good_id":"63","address":"金丰源5栋502室","name":"鹿圆","code":"4","order_content":""}
+[06-Nov-2026 16:40:53 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true,"data":{"shop_id":4,"good_id":63,"order_id":26}}
+[06-Nov-2026 16:40:58 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 16:41:20 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 16:42:02 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 16:45:10 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 16:45:20 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 16:45:23 Asia/Shanghai] api.php 被请求: /index.php | Method: GET
+[06-Nov-2026 16:45:23 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 16:45:24 Asia/Shanghai] api.php 被请求: /index.php | Method: GET
+[06-Nov-2026 16:45:25 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 16:45:32 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 16:45:42 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 16:46:01 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 16:46:07 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 16:47:31 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 16:47:36 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 16:47:56 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 16:48:18 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 16:48:24 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 16:48:28 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 16:48:29 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 16:48:32 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 16:48:41 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 16:49:03 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 16:49:23 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 16:49:33 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 16:49:39 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 16:49:44 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 17:04:14 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 17:04:30 Asia/Shanghai] api.php 被请求: /index.php | Method: GET
+[06-Nov-2026 17:04:35 Asia/Shanghai] api.php 被请求: /index.php | Method: GET
+[06-Nov-2026 17:06:25 Asia/Shanghai] api.php 被请求: /index.php | Method: GET
+[06-Nov-2026 17:06:27 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 17:06:28 Asia/Shanghai] api.php 被请求: /index.php | Method: GET
+[06-Nov-2026 17:06:29 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 17:06:32 Asia/Shanghai] api.php 被请求: /index.php | Method: GET
+[06-Nov-2026 17:06:32 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 17:07:12 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 17:07:14 Asia/Shanghai] api.php 被请求: /index.php | Method: GET
+[06-Nov-2026 17:07:14 Asia/Shanghai] api.php 被请求: /%20assets/bootstrap.bundle.min.js | Method: GET
+[06-Nov-2026 17:07:15 Asia/Shanghai] api.php 被请求: /print.php | Method: GET
+[06-Nov-2026 17:07:15 Asia/Shanghai] PHP Warning:  Undefined array key "iamge" in D:\PHP-DanTool\print.php on line 41
+[06-Nov-2026 17:07:15 Asia/Shanghai] PHP Warning:  Undefined array key "iamge" in D:\PHP-DanTool\print.php on line 41
+[06-Nov-2026 17:07:15 Asia/Shanghai] PHP Warning:  Undefined array key "iamge" in D:\PHP-DanTool\print.php on line 41
+[06-Nov-2026 17:07:15 Asia/Shanghai] PHP Warning:  Undefined array key "iamge" in D:\PHP-DanTool\print.php on line 41
+[06-Nov-2026 17:07:15 Asia/Shanghai] api.php 被请求: /dist/js/jquery.min.js | Method: GET
+[06-Nov-2026 17:07:19 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 17:07:21 Asia/Shanghai] api.php 被请求: /index.php | Method: GET
+[06-Nov-2026 17:07:21 Asia/Shanghai] api.php 被请求: /%20assets/bootstrap.bundle.min.js | Method: GET
+[06-Nov-2026 17:07:23 Asia/Shanghai] api.php 被请求: /index.php | Method: GET
+[06-Nov-2026 17:07:23 Asia/Shanghai] api.php 被请求: /%20assets/bootstrap.bundle.min.js | Method: GET
+[06-Nov-2026 17:07:24 Asia/Shanghai] api.php 被请求: /index.php | Method: GET
+[06-Nov-2026 17:07:24 Asia/Shanghai] api.php 被请求: /%20assets/bootstrap.bundle.min.js | Method: GET
+[06-Nov-2026 17:08:20 Asia/Shanghai] api.php 被请求: /index.php | Method: GET
+[06-Nov-2026 17:08:20 Asia/Shanghai] api.php 被请求: /%20assets/bootstrap.bundle.min.js | Method: GET
+[06-Nov-2026 17:08:45 Asia/Shanghai] api.php 被请求: /index.php | Method: GET
+[06-Nov-2026 17:08:45 Asia/Shanghai] api.php 被请求: /%20assets/bootstrap.bundle.min.js | Method: GET
+[06-Nov-2026 17:09:09 Asia/Shanghai] api.php 被请求: /index.php | Method: GET
+[06-Nov-2026 17:09:09 Asia/Shanghai] api.php 被请求: /%20assets/bootstrap.bundle.min.js | Method: GET
+[06-Nov-2026 17:09:38 Asia/Shanghai] api.php 被请求: /index.php | Method: GET
+[06-Nov-2026 17:09:38 Asia/Shanghai] api.php 被请求: /%20assets/bootstrap.bundle.min.js | Method: GET
+[06-Nov-2026 17:10:43 Asia/Shanghai] api.php 被请求: /index.php | Method: GET
+[06-Nov-2026 17:10:43 Asia/Shanghai] api.php 被请求: /%20assets/bootstrap.bundle.min.js | Method: GET
+[06-Nov-2026 17:11:37 Asia/Shanghai] api.php 被请求: /index.php | Method: GET
+[06-Nov-2026 17:11:56 Asia/Shanghai] api.php 被请求: /index.php | Method: GET
+[06-Nov-2026 17:12:22 Asia/Shanghai] api.php 被请求: /index.php | Method: GET
+[06-Nov-2026 17:12:27 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 17:12:27 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true}
+[06-Nov-2026 17:12:53 Asia/Shanghai] api.php 被请求: /index.php | Method: GET
+[06-Nov-2026 17:12:56 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 17:13:00 Asia/Shanghai] api.php 被请求: /index.php | Method: GET
+[06-Nov-2026 17:13:03 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 17:13:14 Asia/Shanghai] api.php 被请求: /index.php | Method: GET
+[06-Nov-2026 17:13:17 Asia/Shanghai] api.php 被请求: /index.php | Method: GET
+[06-Nov-2026 17:13:24 Asia/Shanghai] api.php 被请求: /print.php | Method: GET
+[06-Nov-2026 17:13:24 Asia/Shanghai] PHP Warning:  Undefined array key "iamge" in D:\PHP-DanTool\print.php on line 41
+[06-Nov-2026 17:13:24 Asia/Shanghai] PHP Warning:  Undefined array key "iamge" in D:\PHP-DanTool\print.php on line 41
+[06-Nov-2026 17:13:24 Asia/Shanghai] PHP Warning:  Undefined array key "iamge" in D:\PHP-DanTool\print.php on line 41
+[06-Nov-2026 17:13:24 Asia/Shanghai] PHP Warning:  Undefined array key "iamge" in D:\PHP-DanTool\print.php on line 41
+[06-Nov-2026 17:13:24 Asia/Shanghai] api.php 被请求: /dist/js/jquery.min.js | Method: GET
+[06-Nov-2026 17:14:09 Asia/Shanghai] api.php 被请求: /print.php | Method: GET
+[06-Nov-2026 17:14:09 Asia/Shanghai] PHP Warning:  Undefined array key "iamge" in D:\PHP-DanTool\print.php on line 34
+[06-Nov-2026 17:14:09 Asia/Shanghai] PHP Warning:  Undefined array key "iamge" in D:\PHP-DanTool\print.php on line 34
+[06-Nov-2026 17:14:09 Asia/Shanghai] PHP Warning:  Undefined array key "iamge" in D:\PHP-DanTool\print.php on line 34
+[06-Nov-2026 17:14:09 Asia/Shanghai] PHP Warning:  Undefined array key "iamge" in D:\PHP-DanTool\print.php on line 34
+[06-Nov-2026 17:14:58 Asia/Shanghai] api.php 被请求: /print.php | Method: GET
+[06-Nov-2026 17:14:58 Asia/Shanghai] api.php 被请求: /20261106150052.jpg | Method: GET
+[06-Nov-2026 17:14:58 Asia/Shanghai] api.php 被请求: /20260918130251.jpg | Method: GET
+[06-Nov-2026 17:14:58 Asia/Shanghai] api.php 被请求: /20261106150129.jpg | Method: GET
+[06-Nov-2026 17:14:58 Asia/Shanghai] api.php 被请求: /20261106140414.jpg | Method: GET
+[06-Nov-2026 17:15:10 Asia/Shanghai] api.php 被请求: /print.php | Method: GET
+[06-Nov-2026 17:15:44 Asia/Shanghai] api.php 被请求: /print.php | Method: GET
+[06-Nov-2026 17:16:15 Asia/Shanghai] api.php 被请求: /print.php | Method: GET
+[06-Nov-2026 17:16:54 Asia/Shanghai] api.php 被请求: /print.php | Method: GET
+[06-Nov-2026 17:17:09 Asia/Shanghai] api.php 被请求: /print.php | Method: GET
+[06-Nov-2026 17:20:08 Asia/Shanghai] api.php 被请求: /print.php | Method: GET
+[06-Nov-2026 17:20:13 Asia/Shanghai] api.php 被请求: /index.php | Method: GET
+[06-Nov-2026 17:20:13 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 17:20:57 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 17:22:11 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 17:24:25 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 17:24:26 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 17:24:27 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 17:24:27 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 17:24:27 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 17:24:53 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 17:25:51 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 17:26:17 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 17:26:34 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 17:26:35 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 17:26:35 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 17:26:35 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 17:26:48 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 17:27:03 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 17:27:18 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 17:27:53 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 17:27:55 Asia/Shanghai] api.php 被请求: /print.php | Method: GET
+[06-Nov-2026 17:28:12 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 17:28:18 Asia/Shanghai] api.php 被请求: /index.php | Method: GET
+[06-Nov-2026 17:28:20 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 17:28:24 Asia/Shanghai] api.php 被请求: /print.php | Method: GET
+[06-Nov-2026 17:29:10 Asia/Shanghai] api.php 被请求: /print.php | Method: GET
+[06-Nov-2026 17:29:19 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 17:29:24 Asia/Shanghai] api.php 被请求: /print.php | Method: GET
+[06-Nov-2026 17:29:53 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 17:29:55 Asia/Shanghai] api.php 被请求: /print.php | Method: GET
+[06-Nov-2026 17:30:35 Asia/Shanghai] api.php 被请求: /print.php | Method: GET
+[06-Nov-2026 17:30:43 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 17:31:05 Asia/Shanghai] api.php 被请求: /print.php | Method: GET
+[06-Nov-2026 17:31:19 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 17:31:21 Asia/Shanghai] api.php 被请求: /print.php | Method: GET
+[06-Nov-2026 17:32:11 Asia/Shanghai] api.php 被请求: /print.php | Method: GET
+[06-Nov-2026 17:36:21 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 17:36:22 Asia/Shanghai] api.php 被请求: /print.php | Method: GET
+[06-Nov-2026 17:37:54 Asia/Shanghai] api.php 被请求: /print.php | Method: GET
+[06-Nov-2026 17:38:32 Asia/Shanghai] api.php 被请求: /print.php | Method: GET
+[06-Nov-2026 17:44:16 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 17:44:23 Asia/Shanghai] api.php 被请求: /print.php | Method: GET
+[06-Nov-2026 17:44:50 Asia/Shanghai] api.php 被请求: /print.php | Method: GET
+[06-Nov-2026 17:45:00 Asia/Shanghai] api.php 被请求: /print.php | Method: GET
+[06-Nov-2026 17:45:08 Asia/Shanghai] api.php 被请求: /print.php | Method: GET
+[06-Nov-2026 17:45:26 Asia/Shanghai] api.php 被请求: /print.php | Method: GET
+[06-Nov-2026 17:46:26 Asia/Shanghai] api.php 被请求: /print.php | Method: GET
+[06-Nov-2026 17:47:41 Asia/Shanghai] api.php 被请求: /print.php | Method: GET
+[06-Nov-2026 17:50:24 Asia/Shanghai] api.php 被请求: /print.php | Method: GET
+[06-Nov-2026 17:52:48 Asia/Shanghai] api.php 被请求: /print.php | Method: GET
+[06-Nov-2026 17:53:29 Asia/Shanghai] api.php 被请求: /print.php | Method: GET
+[06-Nov-2026 17:53:38 Asia/Shanghai] api.php 被请求: /print.php | Method: GET
+[06-Nov-2026 17:53:47 Asia/Shanghai] api.php 被请求: /print.php | Method: GET
+[06-Nov-2026 18:02:23 Asia/Shanghai] api.php 被请求: /print.php | Method: GET
+[06-Nov-2026 18:02:58 Asia/Shanghai] api.php 被请求: /print.php | Method: GET
+[06-Nov-2026 18:03:06 Asia/Shanghai] api.php 被请求: /print.php | Method: GET
+[06-Nov-2026 18:03:23 Asia/Shanghai] api.php 被请求: /print.php | Method: GET
+[06-Nov-2026 18:06:57 Asia/Shanghai] api.php 被请求: /print.php | Method: GET
+[06-Nov-2026 18:09:24 Asia/Shanghai] api.php 被请求: /print.php | Method: GET
+[06-Nov-2026 18:11:36 Asia/Shanghai] api.php 被请求: /print.php | Method: GET
+[06-Nov-2026 18:18:30 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:18:33 Asia/Shanghai] api.php 被请求: /index.php | Method: GET
+[06-Nov-2026 18:18:37 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:18:39 Asia/Shanghai] api.php 被请求: /index.php | Method: GET
+[06-Nov-2026 18:18:42 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:18:44 Asia/Shanghai] api.php 被请求: /index.php | Method: GET
+[06-Nov-2026 18:19:28 Asia/Shanghai] api.php 被请求: /index.php | Method: GET
+[06-Nov-2026 18:19:37 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:19:44 Asia/Shanghai] api.php 被请求: /print.php | Method: GET
+[06-Nov-2026 18:19:45 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:19:47 Asia/Shanghai] api.php 被请求: /index.php | Method: GET
+[06-Nov-2026 18:20:57 Asia/Shanghai] api.php 被请求: /index.php | Method: GET
+[06-Nov-2026 18:20:59 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:21:02 Asia/Shanghai] api.php 被请求: /index.php | Method: GET
+[06-Nov-2026 18:21:53 Asia/Shanghai] api.php 被请求: /index.php | Method: GET
+[06-Nov-2026 18:21:56 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:21:58 Asia/Shanghai] api.php 被请求: /print.php | Method: GET
+[06-Nov-2026 18:21:59 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:22:01 Asia/Shanghai] api.php 被请求: /index.php | Method: GET
+[06-Nov-2026 18:22:15 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:22:18 Asia/Shanghai] api.php 被请求: /index.php | Method: GET
+[06-Nov-2026 18:23:14 Asia/Shanghai] api.php 被请求: /index.php | Method: GET
+[06-Nov-2026 18:23:16 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:23:20 Asia/Shanghai] api.php 被请求: /index.php | Method: GET
+[06-Nov-2026 18:23:22 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:23:30 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:23:36 Asia/Shanghai] api.php 被请求: /index.php | Method: GET
+[06-Nov-2026 18:23:37 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:23:38 Asia/Shanghai] api.php 被请求: /index.php | Method: GET
+[06-Nov-2026 18:28:22 Asia/Shanghai] api.php 被请求: /index.php | Method: GET
+[06-Nov-2026 18:28:25 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:36:27 Asia/Shanghai] api.php 被请求: /index.php | Method: GET
+[06-Nov-2026 18:37:23 Asia/Shanghai] api.php 被请求: /index.php | Method: GET
+[06-Nov-2026 18:37:25 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:37:26 Asia/Shanghai] api.php 被请求: /index.php | Method: GET
+[06-Nov-2026 18:37:27 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:37:29 Asia/Shanghai] api.php 被请求: /index.php | Method: GET
+[06-Nov-2026 18:37:50 Asia/Shanghai] api.php 被请求: /index.php | Method: GET
+[06-Nov-2026 18:37:51 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:37:59 Asia/Shanghai] api.php 被请求: /index.php | Method: GET
+[06-Nov-2026 18:38:02 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:38:03 Asia/Shanghai] api.php 被请求: /print.php | Method: GET
+[06-Nov-2026 18:38:05 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:38:13 Asia/Shanghai] api.php 被请求: /print.php | Method: GET
+[06-Nov-2026 18:38:14 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:39:35 Asia/Shanghai] api.php 被请求: /index.php | Method: GET
+[06-Nov-2026 18:41:24 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:42:04 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:42:30 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:42:58 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:43:07 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:43:11 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:43:23 Asia/Shanghai] api.php 被请求: /index.php | Method: GET
+[06-Nov-2026 18:43:25 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:44:57 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:44:59 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:45:07 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:45:09 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:45:12 Asia/Shanghai] api.php 被请求: /index.php | Method: GET
+[06-Nov-2026 18:45:14 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:46:23 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:47:24 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:48:09 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:48:34 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:48:41 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:48:49 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:48:53 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:49:04 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:49:16 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:49:21 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:50:10 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:50:51 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:50:59 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:53:29 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:53:34 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:53:35 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:53:36 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:53:36 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:53:36 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:53:36 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:53:37 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:53:37 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:53:37 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:53:39 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:53:41 Asia/Shanghai] api.php 被请求: /index.php | Method: GET
+[06-Nov-2026 18:53:42 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:54:18 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:54:35 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:55:05 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:55:06 Asia/Shanghai] api.php 被请求: /index.php | Method: GET
+[06-Nov-2026 18:55:08 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:55:11 Asia/Shanghai] api.php 被请求: /index.php | Method: GET
+[06-Nov-2026 18:55:20 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:55:45 Asia/Shanghai] api.php 被请求: /preview.php | Method: GET
+[06-Nov-2026 18:55:46 Asia/Shanghai] api.php 被请求: /print.php | Method: GET
+[06-Nov-2026 18:56:39 Asia/Shanghai] api.php 被请求: /print.php | Method: GET
+[06-Nov-2026 18:56:58 Asia/Shanghai] api.php 被请求: /print.php | Method: GET
+[06-Nov-2026 20:29:17 Asia/Shanghai] api.php 被请求: / | Method: GET
+[06-Nov-2026 20:36:17 Asia/Shanghai] api.php 被请求: /print.php | Method: GET
+[06-Nov-2026 20:41:39 Asia/Shanghai] api.php 被请求: /index.php | Method: GET
+[06-Nov-2026 20:41:45 Asia/Shanghai] api.php 被请求: /api.php | Method: POST
+[06-Nov-2026 20:41:45 Asia/Shanghai] api.php 响应: HTTP 200 | Body: {"success":true}
